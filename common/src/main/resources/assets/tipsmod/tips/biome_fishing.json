@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.biome_fishing"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.biome_fishing.text"
   }
 }

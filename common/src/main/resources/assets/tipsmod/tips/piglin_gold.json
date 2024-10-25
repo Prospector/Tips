@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.piglin_gold"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.piglin_gold.text"
   }
 }

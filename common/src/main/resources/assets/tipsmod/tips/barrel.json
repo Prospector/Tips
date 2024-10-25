@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.barrel"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.barrel.text"
   }
 }

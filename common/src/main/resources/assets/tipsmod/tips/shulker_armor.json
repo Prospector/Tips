@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.shulker_armor"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.shulker_armor.text"
   }
 }

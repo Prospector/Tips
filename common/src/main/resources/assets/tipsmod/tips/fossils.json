@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.fossils"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.fossils.text"
   }
 }

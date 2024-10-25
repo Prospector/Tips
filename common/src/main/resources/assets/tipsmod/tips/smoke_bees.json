@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.smoke_bees"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.smoke_bees.text"
   }
 }

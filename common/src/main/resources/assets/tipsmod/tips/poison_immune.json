@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.poison_immune"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.poison_immune.text"
   }
 }

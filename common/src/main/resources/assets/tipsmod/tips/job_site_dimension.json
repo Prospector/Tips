@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.job_site_dimension"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.job_site_dimension.text"
   }
 }

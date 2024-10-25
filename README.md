@@ -1,33 +1,41 @@
-# [Tips]()
+<!-- name-start -->
+# Tips [![CurseForge Project](https://img.shields.io/curseforge/dt/306549?logo=curseforge&label=CurseForge&style=flat-square&labelColor=2D2D2D&color=555555)](https://www.curseforge.com/minecraft/mc-mods/tips) [![Modrinth Project](https://img.shields.io/modrinth/dt/AMCbgyVw?logo=modrinth&label=Modrinth&style=flat-square&labelColor=2D2D2D&color=555555)](https://modrinth.com/mod/tips) [![Maven Project](https://img.shields.io/maven-metadata/v?style=flat-square&logoColor=D31A38&labelColor=2D2D2D&color=555555&label=Latest&logo=gradle&metadataUrl=https%3A%2F%2Fmaven.blamejared.com%2Fnet%2Fdarkhax%2Ftips%2Ftipsmod-common-1.21.1%2Fmaven-metadata.xml)](https://maven.blamejared.com/net/darkhax/tips)
+<!-- name-end -->
+<!-- description-start -->
+Adds useful tips to various loading screens in game. The documentation for this mod can be found [here](https://docs.darkhax.net/mods/tip-of-the-loom).
+<!-- description-end -->
 
-This mod displays useful tips on Minecraft's various loading screens. The tip displayed will be cycled out every 5 seconds. New tips can be added or removed by other mods and modpacks very easily.
-
+<!-- maven-start -->
 ## Maven Dependency
-If you are using [Gradle](https://gradle.org) to manage your dependencies, add the following into your `build.gradle` file. Make sure to replace the version with the correct one. All versions can be viewed [here](https://maven.blamejared.com/net/darkhax/openloader/).
+
+If you are using [Gradle](https://gradle.org) to manage your dependencies, add the following into your `build.gradle` file. Make sure to replace the version with the correct one. All versions can be viewed [here](https://maven.blamejared.com/net/darkhax/tips).
+
 ```gradle
 repositories {
-
-    maven { url 'https://maven.blamejared.com' }
+    maven { 
+        url 'https://maven.blamejared.com'
+    }
 }
 
 dependencies {
+    // NeoForge
+    implementation group: 'net.darkhax.tips', name: 'tipsmod-neoforge-1.21.1', version: '21.1.0'
 
-    // Example: compile "net.darkhax.tips:Tips-1.16.4:3.0.3"
-    compile "net.darkhax.tips:Tips-MCVERSION:PUT_VERSION_HERE"
+    // Forge
+    implementation group: 'net.darkhax.tips', name: 'tipsmod-forge-1.21.1', version: '21.1.0'
+
+    // Fabric & Quilt
+    modImplementation group: 'net.darkhax.tips', name: 'tipsmod-fabric-1.21.1', version: '21.1.0'
+
+    // Common / MultiLoader / Vanilla
+    compileOnly group: 'net.darkhax.tips', name: 'tipsmod-common-1.21.1', version: '21.1.0'
 }
 ```
+<!-- maven-end -->
 
-## Jar Signing
-
-As of January 11th 2021 officially published builds will be signed. You can validate the integrity of these builds by comparing their signatures with the public fingerprints.
-
-| Hash   | Fingerprint                                                        |
-|--------|--------------------------------------------------------------------|
-| MD5    | `12F89108EF8DCC223D6723275E87208F`                                 |
-| SHA1   | `46D93AD2DC8ADED38A606D3C36A80CB33EFA69D1`                         |
-| SHA256 | `EBC4B1678BF90CDBDC4F01B18E6164394C10850BA6C4C748F0FA95F2CB083AE5` |
-
+<!-- sponsor-start -->
 ## Sponsors
-<img src="https://nodecraft.com/assets/images/logo-dark.png" width="384" height="90">
 
-This project is sponsored by Nodecraft. Use code [Darkhax](https://nodecraft.com/r/darkhax) for 30% off your first month of service!
+[![](https://assets.blamejared.com/nodecraft/darkhax.jpg)](https://nodecraft.com/r/darkhax)    
+Tips is sponsored by Nodecraft. Use code **[DARKHAX](https://nodecraft.com/r/darkhax)** for 30% of your first month of service!
+<!-- sponsor-end -->

@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.weather_sleep"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.weather_sleep.text"
   }
 }

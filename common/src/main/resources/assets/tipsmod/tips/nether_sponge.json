@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.nether_sponge"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.nether_sponge.text"
   }
 }

@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.four_eggs"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.four_eggs.text"
   }
 }

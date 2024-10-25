@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.ore_tiers"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.ore_tiers.text"
   }
 }

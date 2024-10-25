@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.axolotl_food"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.axolotl_food.text"
   }
 }

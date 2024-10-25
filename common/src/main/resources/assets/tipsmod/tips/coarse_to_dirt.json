@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.coarse_to_dirt"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.coarse_to_dirt.text"
   }
 }

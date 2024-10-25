@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.mooshroom_lightning"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.mooshroom_lightning.text"
   }
 }

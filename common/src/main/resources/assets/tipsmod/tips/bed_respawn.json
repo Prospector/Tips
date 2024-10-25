@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.bed_respawn"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.bed_respawn.text"
   }
 }

@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.wax_copper"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.wax_copper.text"
   }
 }

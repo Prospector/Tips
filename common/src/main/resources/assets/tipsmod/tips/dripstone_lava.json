@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.dripstone_lava"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.dripstone_lava.text"
   }
 }

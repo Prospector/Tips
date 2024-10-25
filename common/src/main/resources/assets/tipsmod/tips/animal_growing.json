@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.animal_growing"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.animal_growing.text"
   }
 }

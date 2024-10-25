@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.zombie_armor"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.zombie_armor.text"
   }
 }

@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.lure_animals"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.lure_animals.text"
   }
 }

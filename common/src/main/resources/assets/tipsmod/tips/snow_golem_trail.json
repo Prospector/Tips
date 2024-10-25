@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.snow_golem_trail"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.snow_golem_trail.text"
   }
 }

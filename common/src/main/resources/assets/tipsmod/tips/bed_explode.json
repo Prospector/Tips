@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.bed_explode"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.bed_explode.text"
   }
 }

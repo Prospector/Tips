@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.baby_panda_slimeball"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.baby_panda_slimeball.text"
   }
 }

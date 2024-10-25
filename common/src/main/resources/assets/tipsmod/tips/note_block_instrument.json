@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.note_block_instrument"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.note_block_instrument.text"
   }
 }

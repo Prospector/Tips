@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.mushroom_biome_spawns"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.mushroom_biome_spawns.text"
   }
 }

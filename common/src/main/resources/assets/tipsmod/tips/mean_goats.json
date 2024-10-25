@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.mean_goats"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.mean_goats.text"
   }
 }

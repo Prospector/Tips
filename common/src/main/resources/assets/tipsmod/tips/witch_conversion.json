@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.witch_conversion"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.witch_conversion.text"
   }
 }

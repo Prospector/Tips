@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.undead_damage"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.undead_damage.text"
   }
 }

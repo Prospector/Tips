@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.peaceful_tnt"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.peaceful_tnt.text"
   }
 }

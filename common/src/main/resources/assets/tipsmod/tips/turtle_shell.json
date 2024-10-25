@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.turtle_shell"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.turtle_shell.text"
   }
 }

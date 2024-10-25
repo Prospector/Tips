@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.undead_helmet"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.undead_helmet.text"
   }
 }

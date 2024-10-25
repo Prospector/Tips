@@ -1,5 +1,6 @@
 {
-  "tip": {
-    "translate": "tipsmod.tip.deflect_ghast_fireballs"
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "tip.tipsmod.deflect_ghast_fireballs.text"
   }
 }
