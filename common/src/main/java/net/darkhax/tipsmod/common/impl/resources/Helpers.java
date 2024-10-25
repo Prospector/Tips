@@ -1,11 +1,9 @@
 package net.darkhax.tipsmod.common.impl.resources;
 
 import net.darkhax.tipsmod.common.mixin.AccessorClientAdvancements;
-import net.minecraft.advancements.Advancement;
+import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.client.player.LocalPlayer;
-import net.minecraft.core.Registry;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 
 import java.util.HashSet;
@@ -34,13 +32,9 @@ public class Helpers {
     public static Set<ResourceLocation> getCompletedAdvancements(LocalPlayer player) {
         if (player.connection.getAdvancements() instanceof AccessorClientAdvancements access) {
             final Set<ResourceLocation> completed = new HashSet<>();
-            final Registry<Advancement> registry = player.registryAccess().registry(Registries.ADVANCEMENT).orElseThrow();
-            for (Map.Entry<Advancement, AdvancementProgress> entry : access.bookshelf$getProgress().entrySet()) {
+            for (Map.Entry<AdvancementHolder, AdvancementProgress> entry : access.bookshelf$getProgress().entrySet()) {
                 if (entry.getValue().isDone()) {
-                    final ResourceLocation advancementId = registry.getKey(entry.getKey());
-                    if (advancementId != null) {
-                        completed.add(advancementId);
-                    }
+                    completed.add(entry.getKey().id());
                 }
             }
             return completed;
